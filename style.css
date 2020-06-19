@@ -1,0 +1,48 @@
+body
+{
+  background: url("https://i1.faceprep.in/ProGrad/greeting-background.png");
+ background-size: cover;
+  background-color: cyan;
+  font-family: 'Nunito sans';
+}
+
+.card{
+  height: 60vh;
+  width: 60vw;
+  background: url("https://i1.faceprep.in/ProGrad/super-hero-background.png")repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  position: fixed;
+  margin-left: 330px;
+  margin-top: 180px;
+}
+
+#superhero{
+  width: 40%;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.button{
+  width:100px;
+  height:30px;
+  background: black;
+  color: white;
+  position: fixed;
+  margin-top: 315px;
+  font-size: 12px;
+}
+
+#back{
+  visibility: hidden;
+}
+
+h1{
+    font-size: 100px;
+    color: blue;
+}
+
